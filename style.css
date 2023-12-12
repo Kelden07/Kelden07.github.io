@@ -1,17 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(https://images6.alphacoders.com/715/thumb-350-715677.png) no-repeat;
+    background-image: url("assets/day.jpg");
     background-size: cover;
 }
 .box{
     width: 450px;
-    background: rgba(0, 0, 0, 0.4);
+    background: transparent;
     padding: 40px;
     text-align: center;
-    margin: auto;
     margin-top: 5%;
-    color: white;
+    color: black;
     font-family: 'Itim', cursive;
 }
 .box-img{
@@ -51,4 +50,36 @@ ul{
 }
 .box li a:hover{
     color: #b9b9b9;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#navbar a {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 15px;
+}
+
+#name {
+    font-size: 35px;
+    float: left;
+}
+
+#mode {
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+}
+
+.dark {
+    background-image: url("assets/night.jpg");
+    color: #e6e6e6;
+    background-size: cover;
 }
