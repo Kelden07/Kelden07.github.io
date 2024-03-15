@@ -1,8 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("assets/day.jpg");
+    background-image: url("assets/day1.jpg");
     background-size: cover;
+    color: white;
 }
 .box{
     width: 450px;
@@ -10,7 +11,6 @@ body{
     padding: 40px;
     text-align: center;
     margin-top: 5%;
-    color: black;
     font-family: 'Itim', cursive;
 }
 .box-img{
@@ -60,13 +60,13 @@ ul{
 #navbar a {
     font-family: 'Times New Roman', Times, serif;
     display: block;
-    color: black;
     text-align: right;
     padding: 15px;
+    color: White;
 }
 
 #name {
-    font-size: 35px;
+    font-size: 40px;
     float: left;
 }
 
@@ -79,7 +79,6 @@ ul{
 }
 
 .dark {
-    background-image: url("assets/night.jpg");
-    color: #e6e6e6;
+    background-image: url("assets/night2.jpg");
     background-size: cover;
 }
