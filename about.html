@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Kelden's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Kelden</span>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="mailto:kellycring6@gmail.com?Subject=Hey%20Kelden!" target="_newtab">Contact Me</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="mailto:kellycring6@gmail.com?Subject=Hey%20Kelden!" target="_newtab">Contact Me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <h1 class="title">About Me</h1>
+        <p class="intro">I am currently a fourth year student at Brandeis University and am inspired by what you can do with a single line of code. 
+            I am interested in learning different programming languages and creating websites/apps that could help my community. Some fields that I am interested
+            in are Software Engineering, Cybersecurity, and Web Development. I am proficient in coding in Java and Python. 
+            I am experienced in using Swift, Blender, and R. Courses I have taken at Brandeis consists of 
+            <ul class="courses">
+                <li>1. Advanced Programming Techniques in Java</li>
+                <li>2. Introduction to Problem Solving in Python</li> 
+                <li>3. Data Structures and Algorithms</li>
+                <li>4. Discrete Structures</li>
+                <li>5. 3D Programming in Blender</li>
+                <li>6. Information Visualization</li>
+                <li>7. Human Computer Interaction</li>
+                <li>8. Machine Learning</li>
+                <li>9. Operating Systems</li>
+                <li>10. Computer Security</li>
+            </ul>
+        </p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
+    <script>
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
+</body>
+</html>

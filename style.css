@@ -12,7 +12,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(to right, white, #77bd8f);
+    background: linear-gradient(to left, lightblue, #77bd8f);
 }
 nav{
     width: 100%;
@@ -260,4 +260,25 @@ box-shadow: 0 0 40px black;
         width: 80%;
         margin-bottom: 0px;
     }
+}
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.intro {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin: 10px 100px;
+}
+.courses {
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 40px;
 }
